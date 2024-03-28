@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.format.annotation.DateTimeFormat;
+import ra.databinding.validator.PasswordMatcher;
 import ra.databinding.validator.StudentNameUnique;
 
 import javax.validation.constraints.Pattern;
@@ -16,6 +17,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Getter
 @Setter
+@PasswordMatcher(pass = "pass",confirmPass = "confirmPass")
 public class Student {
     private Long id;
     @NotBlank(message = "khong duoc de trong nhe")

@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="299af663-2ae6-4e23-8c87-14aa2a00f67a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/validator/PasswordMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/validator/PasswordMatcherConstraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/validator/StudentCheckPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/config/ServletConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/model/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/model/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/image.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -184,7 +180,7 @@
       <updated>1711608013479</updated>
       <workItem from="1711608014623" duration="1747000" />
       <workItem from="1711609850737" duration="6662000" />
-      <workItem from="1711616952502" duration="1334000" />
+      <workItem from="1711616952502" duration="2908000" />
     </task>
     <servers />
   </component>

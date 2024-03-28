@@ -12,6 +12,14 @@
         <span style="color: red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
     </div>
     <div>
+        <label for="pass">Pass</label>
+        <input type="text" th:field="*{pass}">
+    </div> <div>
+        <label for="confirmPass">ConfirmPass</label>
+        <input type="text" th:field="*{confirmPass}">
+        <span style="color: red" th:if="${#fields.hasErrors('confirmPass')}" th:errors="*{confirmPass}"></span>
+    </div>
+    <div>
         <label for="dob">Birthday</label>
         <input type="date" th:field="*{dob}">
     </div>

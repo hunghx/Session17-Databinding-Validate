@@ -14,6 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 import ra.databinding.dao.StudentDao;
 import ra.databinding.model.entity.FileUpload;
 import ra.databinding.model.entity.Student;
+import ra.databinding.validator.StudentCheckPassword;
 
 import javax.validation.Valid;
 import java.io.File;
@@ -26,6 +27,8 @@ import java.util.List;
 public class HomeController {
     @Autowired
     private StudentDao studentDao;
+    @Autowired
+    private StudentCheckPassword studentCheckPassword;
 
     @RequestMapping
     public ModelAndView home() {
@@ -35,6 +38,8 @@ public class HomeController {
 
     @RequestMapping(value = "/submit", method = RequestMethod.POST)
     public ModelAndView doSubmit(@Valid @ModelAttribute("student") Student student, BindingResult bindingResult) {
+//        studentCheckPassword.validate(student,bindingResult);
+
         if (bindingResult.hasErrors()) {
             ModelAndView modelAndView = new ModelAndView("home", "student", student);
             return modelAndView;
