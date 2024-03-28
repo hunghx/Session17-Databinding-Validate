@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/submit" method="post" th:object="${student}">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" th:field="*{name}">
+        <span style="color: red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
+    </div>
+    <div>
+        <label for="dob">Birthday</label>
+        <input type="date" th:field="*{dob}">
+    </div>
+    <div>
+        <input type="radio" name="sex" id="nam" value="true"/> <label for="nam">Nam</label>
+        <input type="radio" name="sex" id="nu" value="false"/><label  for="nu">Nu</label>
+        <input type="radio" name="sex" id="khac"/><label for="khac">Khac</label>
+    </div>
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>

@@ -5,6 +5,7 @@ import ra.databinding.model.entity.Student;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 @Component
 public class StudentDao {
@@ -16,5 +17,9 @@ public class StudentDao {
     }
     public boolean existByName(String name){
         return studentList.stream().anyMatch(s->s.getName().equals(name));
+    }
+    public void add(Student s){
+        s.setId(new Random().nextLong());
+        studentList.add(s);
     }
 }

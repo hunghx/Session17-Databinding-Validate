@@ -24,6 +24,8 @@ public class Student {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dob = new Date();
     private Boolean sex;
+    private String pass;
+    private String confirmPass;
 
     @Override
     public String toString() {
