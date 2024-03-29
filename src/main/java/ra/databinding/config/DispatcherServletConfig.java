@@ -8,12 +8,12 @@ import javax.servlet.Filter;
 public class DispatcherServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[0];
+        return new Class[]{AppContextConfig.class};
     }
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[]{ServletConfig.class};
+        return new Class[]{WebMVCConfig.class};
     }
 
     @Override

@@ -35,6 +35,10 @@ public class HomeController {
         ModelAndView modelAndView = new ModelAndView("home", "student", new Student());
         return modelAndView;
     }
+    @RequestMapping("/403")
+    public String _403() {
+       return "403";
+    }
 
     @RequestMapping(value = "/submit", method = RequestMethod.POST)
     public ModelAndView doSubmit(@Valid @ModelAttribute("student") Student student, BindingResult bindingResult) {
