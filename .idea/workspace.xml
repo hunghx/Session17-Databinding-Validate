@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="299af663-2ae6-4e23-8c87-14aa2a00f67a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/config/AppContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/config/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/model/dto/request/FormLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/model/dto/request/FormRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/model/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/model/entity/RoleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/orm-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/config/DispatcherServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/config/DispatcherServletConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/config/WebMVCConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ra/databinding/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ra/databinding/controller/HomeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +238,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-734fdc6e" />
       </set>
     </attachedChunks>
   </component>
@@ -276,7 +255,9 @@
       <workItem from="1711616952502" duration="3233000" />
       <workItem from="1711626878325" duration="30000" />
       <workItem from="1711682161333" duration="2892000" />
-      <workItem from="1711685098893" duration="3027000" />
+      <workItem from="1711685098893" duration="3070000" />
+      <workItem from="1711696263134" duration="416000" />
+      <workItem from="1711946321641" duration="17000" />
     </task>
     <servers />
   </component>
