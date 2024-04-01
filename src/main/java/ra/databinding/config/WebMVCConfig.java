@@ -85,6 +85,8 @@ public class WebMVCConfig implements WebMvcConfigurer , ApplicationContextAware 
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new AuthInterceptor()).addPathPatterns("/admin/**");
     }
+
+    // cau hinh message validate
     @Bean(name = "messageSource")
     public MessageSource messageSource()
     {
